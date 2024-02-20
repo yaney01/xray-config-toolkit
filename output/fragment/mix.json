@@ -40,7 +40,7 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
@@ -48,9 +48,10 @@
             "port": 443,
             "users": [
               {
-                "encryption": "none",
+                "alterId": 0,
+                "encryption": "",
                 "flow": "",
-                "id": "e77d1646-ad78-4bed-b45c-b8bbbabe99b5",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "level": 8,
                 "security": "auto"
               }
@@ -67,16 +68,16 @@
         "network": "ws",
         "wsSettings": {
           "headers": {
-            "Host": "sky.submub.sbs"
+            "Host": "cy-dew-1c7uwh.cojatoc291.workers.dev"
           },
-          "path": "/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,"
+          "path": "/nina.bond/linkvws"
         },
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "alpn": ["h2,http/1.1"],
+          "alpn": [""],
           "fingerprint": "chrome",
-          "serverName": "sky.submub.sbs",
+          "serverName": "cy-dew-1c7uwh.cojatoc291.workers.dev",
           "show": false
         }
       },
