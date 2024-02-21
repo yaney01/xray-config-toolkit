@@ -68,16 +68,16 @@
         "network": "ws",
         "wsSettings": {
           "headers": {
-            "Host": "cy-dew-1c7uwh.cojatoc291.workers.dev"
+            "Host": "kellie.makeup"
           },
-          "path": "/nina.bond/linkvws"
+          "path": "/linkvws"
         },
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "alpn": [""],
           "fingerprint": "chrome",
-          "serverName": "cy-dew-1c7uwh.cojatoc291.workers.dev",
+          "serverName": "kellie.makeup",
           "show": false
         }
       },
